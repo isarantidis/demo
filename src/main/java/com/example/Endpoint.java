@@ -9,6 +9,6 @@ public class Endpoint {
 
 	@GetMapping(path="/get")
 	public HttpEntity<String> get() {
-		return new HttpEntity<String>("dsa");
+		return new HttpEntity<String>("Eisai megali lougkra");
 	}
 }
